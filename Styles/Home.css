@@ -1,0 +1,263 @@
+.hdivider   /*Home Page Section Divider*/
+    {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: lightblue;
+    }
+
+.mhheader   /*Main Header Section of Home Page*/
+    {
+        background-color: #8d153a;
+        color: white;
+        grid-column: 1/4;
+    }
+
+.mhfooter   /*Main Footer Section of Home Page*/
+    {
+        background-color: #8d153a;
+        color: white;
+        grid-column: 1/4;
+    }
+
+.map_intro  /*Map Introduction Section of Home Page*/
+    {
+
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+    }
+
+.welcome    /*Welcome Section of Home Page*/
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+.mgallery   /*Home Page Main Gallery*/
+    {
+        margin-top: 10px;
+        padding: 5px;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+
+.dl a   /*Home Page Definition List Hyperlinks*/
+    {
+        text-decoration: none;
+    }
+
+.ul a   /*Home Page Unordered List Hyperlinks*/
+    {
+        text-decoration: none;
+    }
+
+.ol a   /*Home Page Ordered List Hyperlinks*/
+    {
+        text-decoration: none;
+    }
+
+.mgallery a /*Home Page Main Gallery Hyperlinks*/
+    {
+        margin-right: 20px;
+        padding: 5px;
+    }
+
+.side   /*Side Section of Home Page*/
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+.logo /*Logo*/
+    {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+.trow2 a /*Main Header Second Row Hyperlinks*/
+    {
+        text-decoration: none;
+        color: white;
+        margin-right: 80px;
+    }
+
+.trow3 a /*Main Header third Row Hyperlinks*/
+    {
+        text-decoration: none;
+        margin-right: 42px;
+    }
+
+.brow2 a /*Main Footer Second Row Hyperlinks*/
+    {
+        text-decoration: none;
+        color: white;
+        margin-right: 80px;
+    }
+
+.brow1 a /*Main Footer First Row Hyperlinks*/
+    {
+        text-decoration: none;
+        margin-right: 44px;
+    }
+
+.h1 /*All H1 Headers*/
+    {
+        color: white;
+        background-color: #00534E;
+        padding: 14px;
+        border: 1px solid black;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+.h2 /*All H2 Headers*/
+    {
+        color: white;
+        background-color: #EB7400;
+        padding: 12px;
+        border: 1px solid black;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+.h3 /*All H3 Headers*/
+    {
+        color: white;
+        background-color: #FFBE29;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 2px;
+        text-align: center;
+    }
+
+a:hover /*Entire Body Hyperlinks*/
+    {
+        background-color: #FFBE29;
+    }
+
+ul.pbreadcrumb  /*Primary Breadcrumb Trail*/
+    {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #eee;
+    }
+ul.pbreadcrumb li
+    {
+        display: inline;
+        font-size: 18px;
+    }
+ul.pbreadcrumb li+li:before
+    {
+        padding: 8px;
+        color: black;
+        content: ">\00a0";
+    }
+ul.pbreadcrumb li a
+    {
+        color: #0275d8;
+        text-decoration: none;
+    }
+ul.pbreadcrumb li a:hover
+    {
+        color: #01447e;
+        text-decoration: underline;
+    }
+
+.marine-align
+    {
+        position: relative;
+        text-align: center;
+        color:darkred;
+    }
+
+.m-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.ancestory-align
+    {
+        position: relative;
+        text-align: center;
+        color:yellow;
+    }
+
+.a-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.excercises-align
+    {
+        position: relative;
+        text-align: center;
+        color:darkblue;
+    }
+
+.e-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.fauna-and-flora-align
+    {
+        position: relative;
+        text-align: center;
+        color:white;
+    }
+
+.fandf-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.scenic-views-align
+    {
+        position: relative;
+        text-align: center;
+        color:red;
+    }
+
+.sandv-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.wonders-align
+    {
+        position: relative;
+        text-align: center;
+        color:darkorange;
+    }
+
+.wonders-center
+    {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+.pic
+    {
+        opacity: 0.8;
+    }
+

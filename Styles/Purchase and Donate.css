@@ -1,0 +1,136 @@
+.pddivider  /*Purchase and Donate Page Section Divider*/
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: lightblue;
+    }
+
+.mpdheader  /*Main Header Section of Purchase and Donations Page*/
+    {
+        background-color: #8d153a;
+        color: white;
+        grid-column: 1/3;
+    }
+
+.mpdfooter  /*Main Footer Section of Purchase and Donations Page*/
+    {
+        background-color: #8d153a;
+        color: white;
+        grid-column: 1/3;
+    }
+
+.pdtitle    /*Purchase and Donations Page Title Section*/
+    {
+        grid-column: 1/3;
+    }
+
+.mt /*Purchase and Donations Page Merchandise Table*/
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+.dt /*Purchase and Donations Page Donations Table*/
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+.logo /*Logo*/
+    {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+.trow2 a /*Main Header Second Row Hyperlinks*/
+    {
+        text-decoration: none;
+        color: white;
+        margin-right: 80px;
+    }
+
+.trow3 a /*Main Header third Row Hyperlinks*/
+    {
+        text-decoration: none;
+        margin-right: 42px;
+    }
+
+.brow2 a /*Main Footer Second Row Hyperlinks*/
+    {
+        text-decoration: none;
+        color: white;
+        margin-right: 80px;
+    }
+
+.brow1 a /*Main Footer First Row Hyperlinks*/
+    {
+        text-decoration: none;
+        margin-right: 44px;
+    }
+
+.h1 /*All H1 Headers*/
+    {
+        color: white;
+        background-color: #00534E;
+        padding: 14px;
+        border: 1px solid black;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+.h2 /*All H2 Headers*/
+    {
+        color: white;
+        background-color: #EB7400;
+        padding: 12px;
+        border: 1px solid black;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+.h3 /*All H3 Headers*/
+    {
+        color: white;
+        background-color: #FFBE29;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 2px;
+        text-align: center;
+    }
+
+a:hover /*Entire Body Hyperlinks*/
+    {
+        background-color: #FFBE29;
+    }
+
+ul.pbreadcrumb  /*Primary Breadcrumb Trail*/
+    {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #eee;
+    }
+ul.pbreadcrumb li
+    {
+        display: inline;
+        font-size: 18px;
+    }
+ul.pbreadcrumb li+li:before
+    {
+        padding: 8px;
+        color: black;
+        content: ">\00a0";
+    }
+ul.pbreadcrumb li a
+    {
+        color: #0275d8;
+        text-decoration: none;
+    }
+ul.pbreadcrumb li a:hover
+    {
+        color: #01447e;
+        text-decoration: underline;
+    }
